@@ -7,5 +7,5 @@
   * foxy : sudo apt install ros-foxy-desktop ros-foxy-rmw-fastrtps* ros-foxy-rmw-cyclonedds*
 * testpub testsub 으로 ROS2 정상작동 확인.
 * trutlesim_node 실행 후 teleop으로 움직임 확인.
-* d
+* github연동, commit 시행, m_pubsub패키지 해제 및 mpub.py일부 작성
 [EOF]
