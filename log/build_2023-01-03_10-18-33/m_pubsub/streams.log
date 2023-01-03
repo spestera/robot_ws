@@ -1,0 +1,25 @@
+[2.308s] Invoking command in '/home/spark/robot_ws/build/m_pubsub': PYTHONPATH=/home/spark/robot_ws/build/m_pubsub/prefix_override:/home/spark/robot_ws/install/m_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/spark/robot_ws/build/m_pubsub/build --no-deps install_data
+[3.105s] running develop
+[3.660s] running egg_info
+[3.661s] creating m_pubsub.egg-info
+[3.672s] writing m_pubsub.egg-info/PKG-INFO
+[3.672s] writing dependency_links to m_pubsub.egg-info/dependency_links.txt
+[3.672s] writing entry points to m_pubsub.egg-info/entry_points.txt
+[3.672s] writing requirements to m_pubsub.egg-info/requires.txt
+[3.672s] writing top-level names to m_pubsub.egg-info/top_level.txt
+[3.672s] writing manifest file 'm_pubsub.egg-info/SOURCES.txt'
+[3.743s] reading manifest file 'm_pubsub.egg-info/SOURCES.txt'
+[3.743s] writing manifest file 'm_pubsub.egg-info/SOURCES.txt'
+[3.825s] running build_ext
+[3.825s] Creating /home/spark/robot_ws/install/m_pubsub/lib/python3.8/site-packages/site.py
+[3.825s] Creating /home/spark/robot_ws/install/m_pubsub/lib/python3.8/site-packages/m-pubsub.egg-link (link to .)
+[3.826s] Installing mp = m_pubsub.mpub:main ms script to /home/spark/robot_ws/install/m_pubsub/lib/m_pubsub
+[3.827s] 
+[3.828s] Installed /home/spark/robot_ws/build/m_pubsub
+[3.828s] running install_data
+[3.828s] creating /home/spark/robot_ws/install/m_pubsub/share/ament_index
+[3.828s] creating /home/spark/robot_ws/install/m_pubsub/share/ament_index/resource_index
+[3.828s] creating /home/spark/robot_ws/install/m_pubsub/share/ament_index/resource_index/packages
+[3.828s] copying resource/m_pubsub -> /home/spark/robot_ws/install/m_pubsub/share/ament_index/resource_index/packages
+[3.828s] copying package.xml -> /home/spark/robot_ws/install/m_pubsub/share/m_pubsub
+[3.942s] Invoked command in '/home/spark/robot_ws/build/m_pubsub' returned '0': PYTHONPATH=/home/spark/robot_ws/build/m_pubsub/prefix_override:/home/spark/robot_ws/install/m_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/spark/robot_ws/build/m_pubsub/build --no-deps install_data

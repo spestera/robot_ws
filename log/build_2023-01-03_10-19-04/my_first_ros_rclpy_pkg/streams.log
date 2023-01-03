@@ -1,0 +1,16 @@
+[1.925s] Invoking command in '/home/spark/robot_ws/build/my_first_ros_rclpy_pkg': PYTHONPATH=/home/spark/robot_ws/build/my_first_ros_rclpy_pkg/prefix_override:/home/spark/robot_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/spark/robot_ws/build/my_first_ros_rclpy_pkg/build --no-deps install_data
+[2.319s] running develop
+[3.024s] running egg_info
+[3.025s] writing my_first_ros_rclpy_pkg.egg-info/PKG-INFO
+[3.025s] writing dependency_links to my_first_ros_rclpy_pkg.egg-info/dependency_links.txt
+[3.025s] writing entry points to my_first_ros_rclpy_pkg.egg-info/entry_points.txt
+[3.025s] writing requirements to my_first_ros_rclpy_pkg.egg-info/requires.txt
+[3.026s] writing top-level names to my_first_ros_rclpy_pkg.egg-info/top_level.txt
+[3.138s] reading manifest file 'my_first_ros_rclpy_pkg.egg-info/SOURCES.txt'
+[3.140s] writing manifest file 'my_first_ros_rclpy_pkg.egg-info/SOURCES.txt'
+[3.260s] running build_ext
+[3.263s] Creating /home/spark/robot_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages/my-first-ros-rclpy-pkg.egg-link (link to .)
+[3.274s] 
+[3.275s] Installed /home/spark/robot_ws/build/my_first_ros_rclpy_pkg
+[3.275s] running install_data
+[3.375s] Invoked command in '/home/spark/robot_ws/build/my_first_ros_rclpy_pkg' returned '0': PYTHONPATH=/home/spark/robot_ws/build/my_first_ros_rclpy_pkg/prefix_override:/home/spark/robot_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/spark/robot_ws/build/my_first_ros_rclpy_pkg/build --no-deps install_data

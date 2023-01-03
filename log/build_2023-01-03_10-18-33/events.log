@@ -1,0 +1,96 @@
+[0.000000] (-) TimerEvent: {}
+[0.000899] (m_pubsub) JobQueued: {'identifier': 'm_pubsub', 'dependencies': OrderedDict()}
+[0.002345] (my_first_ros_rclpy_pkg) JobQueued: {'identifier': 'my_first_ros_rclpy_pkg', 'dependencies': OrderedDict()}
+[0.002388] (m_pubsub) JobStarted: {'identifier': 'm_pubsub'}
+[0.041233] (my_first_ros_rclpy_pkg) JobStarted: {'identifier': 'my_first_ros_rclpy_pkg'}
+[0.096205] (-) TimerEvent: {}
+[0.197213] (-) TimerEvent: {}
+[0.298951] (-) TimerEvent: {}
+[0.399726] (-) TimerEvent: {}
+[0.502533] (-) TimerEvent: {}
+[0.603153] (-) TimerEvent: {}
+[0.712832] (-) TimerEvent: {}
+[0.813560] (-) TimerEvent: {}
+[0.918288] (-) TimerEvent: {}
+[1.023821] (-) TimerEvent: {}
+[1.127754] (-) TimerEvent: {}
+[1.231789] (-) TimerEvent: {}
+[1.333550] (-) TimerEvent: {}
+[1.435912] (-) TimerEvent: {}
+[1.539659] (-) TimerEvent: {}
+[1.640339] (-) TimerEvent: {}
+[1.741137] (-) TimerEvent: {}
+[1.843267] (-) TimerEvent: {}
+[1.948341] (-) TimerEvent: {}
+[2.048798] (-) TimerEvent: {}
+[2.149443] (-) TimerEvent: {}
+[2.256291] (-) TimerEvent: {}
+[2.275825] (my_first_ros_rclpy_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/spark/robot_ws/build/my_first_ros_rclpy_pkg/build', '--no-deps', 'install_data'], 'cwd': '/home/spark/robot_ws/build/my_first_ros_rclpy_pkg', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'spark', 'LC_TIME': 'ko_KR.UTF-8', 'ROS_NAMESPACE': 'robot1', 'SSH_AGENT_PID': '1302', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/spark', 'OLDPWD': '/home/spark/robot_ws', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1041', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '72389', '_colcon_cd_root': '/home/spark/robot_ws', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'spark', 'JOURNAL_STREAM': '8:53884', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'spark', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/spark-virtual-machine:@/tmp/.ICE-unix/2917,unix/spark-virtual-machine:/tmp/.ICE-unix/2917', 'INVOCATION_ID': '5941dd4a8f124e388ddd319eb3e38844', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '82', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:4afceae0-a3ec-4612-a447-5c0e923e8c4f', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/spark/robot_ws/build/my_first_ros_rclpy_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/spark/robot_ws/build/my_first_ros_rclpy_pkg/prefix_override:/home/spark/robot_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[2.308718] (m_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/spark/robot_ws/build/m_pubsub/build', '--no-deps', 'install_data'], 'cwd': '/home/spark/robot_ws/build/m_pubsub', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'spark', 'LC_TIME': 'ko_KR.UTF-8', 'ROS_NAMESPACE': 'robot1', 'SSH_AGENT_PID': '1302', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/spark', 'OLDPWD': '/home/spark/robot_ws', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1041', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '72389', '_colcon_cd_root': '/home/spark/robot_ws', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'spark', 'JOURNAL_STREAM': '8:53884', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'spark', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/spark-virtual-machine:@/tmp/.ICE-unix/2917,unix/spark-virtual-machine:/tmp/.ICE-unix/2917', 'INVOCATION_ID': '5941dd4a8f124e388ddd319eb3e38844', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '82', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:4afceae0-a3ec-4612-a447-5c0e923e8c4f', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/spark/robot_ws/build/m_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/spark/robot_ws/build/m_pubsub/prefix_override:/home/spark/robot_ws/install/m_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[2.357725] (-) TimerEvent: {}
+[2.463729] (-) TimerEvent: {}
+[2.572601] (-) TimerEvent: {}
+[2.679208] (-) TimerEvent: {}
+[2.779964] (-) TimerEvent: {}
+[2.883802] (-) TimerEvent: {}
+[2.988037] (-) TimerEvent: {}
+[3.096052] (-) TimerEvent: {}
+[3.107321] (m_pubsub) StdoutLine: {'line': b'running develop\n'}
+[3.182943] (my_first_ros_rclpy_pkg) StdoutLine: {'line': b'running develop\n'}
+[3.199736] (-) TimerEvent: {}
+[3.307436] (-) TimerEvent: {}
+[3.412203] (-) TimerEvent: {}
+[3.515887] (-) TimerEvent: {}
+[3.618043] (-) TimerEvent: {}
+[3.662668] (m_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[3.662868] (m_pubsub) StdoutLine: {'line': b'creating m_pubsub.egg-info\n'}
+[3.674181] (m_pubsub) StdoutLine: {'line': b'writing m_pubsub.egg-info/PKG-INFO\n'}
+[3.674403] (m_pubsub) StdoutLine: {'line': b'writing dependency_links to m_pubsub.egg-info/dependency_links.txt\n'}
+[3.674511] (m_pubsub) StdoutLine: {'line': b'writing entry points to m_pubsub.egg-info/entry_points.txt\n'}
+[3.674590] (m_pubsub) StdoutLine: {'line': b'writing requirements to m_pubsub.egg-info/requires.txt\n'}
+[3.674666] (m_pubsub) StdoutLine: {'line': b'writing top-level names to m_pubsub.egg-info/top_level.txt\n'}
+[3.674740] (m_pubsub) StdoutLine: {'line': b"writing manifest file 'm_pubsub.egg-info/SOURCES.txt'\n"}
+[3.708673] (my_first_ros_rclpy_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[3.709038] (my_first_ros_rclpy_pkg) StdoutLine: {'line': b'creating my_first_ros_rclpy_pkg.egg-info\n'}
+[3.712227] (my_first_ros_rclpy_pkg) StdoutLine: {'line': b'writing my_first_ros_rclpy_pkg.egg-info/PKG-INFO\n'}
+[3.712755] (my_first_ros_rclpy_pkg) StdoutLine: {'line': b'writing dependency_links to my_first_ros_rclpy_pkg.egg-info/dependency_links.txt\n'}
+[3.713106] (my_first_ros_rclpy_pkg) StdoutLine: {'line': b'writing entry points to my_first_ros_rclpy_pkg.egg-info/entry_points.txt\n'}
+[3.713448] (my_first_ros_rclpy_pkg) StdoutLine: {'line': b'writing requirements to my_first_ros_rclpy_pkg.egg-info/requires.txt\n'}
+[3.713724] (my_first_ros_rclpy_pkg) StdoutLine: {'line': b'writing top-level names to my_first_ros_rclpy_pkg.egg-info/top_level.txt\n'}
+[3.720374] (-) TimerEvent: {}
+[3.720722] (my_first_ros_rclpy_pkg) StdoutLine: {'line': b"writing manifest file 'my_first_ros_rclpy_pkg.egg-info/SOURCES.txt'\n"}
+[3.745322] (m_pubsub) StdoutLine: {'line': b"reading manifest file 'm_pubsub.egg-info/SOURCES.txt'\n"}
+[3.745616] (m_pubsub) StdoutLine: {'line': b"writing manifest file 'm_pubsub.egg-info/SOURCES.txt'\n"}
+[3.812151] (my_first_ros_rclpy_pkg) StdoutLine: {'line': b"reading manifest file 'my_first_ros_rclpy_pkg.egg-info/SOURCES.txt'\n"}
+[3.815680] (my_first_ros_rclpy_pkg) StdoutLine: {'line': b"writing manifest file 'my_first_ros_rclpy_pkg.egg-info/SOURCES.txt'\n"}
+[3.826670] (-) TimerEvent: {}
+[3.827019] (m_pubsub) StdoutLine: {'line': b'running build_ext\n'}
+[3.827178] (m_pubsub) StdoutLine: {'line': b'Creating /home/spark/robot_ws/install/m_pubsub/lib/python3.8/site-packages/site.py\n'}
+[3.827265] (m_pubsub) StdoutLine: {'line': b'Creating /home/spark/robot_ws/install/m_pubsub/lib/python3.8/site-packages/m-pubsub.egg-link (link to .)\n'}
+[3.828163] (m_pubsub) StdoutLine: {'line': b'Installing mp = m_pubsub.mpub:main ms script to /home/spark/robot_ws/install/m_pubsub/lib/m_pubsub\n'}
+[3.829593] (m_pubsub) StdoutLine: {'line': b'\n'}
+[3.829842] (m_pubsub) StdoutLine: {'line': b'Installed /home/spark/robot_ws/build/m_pubsub\n'}
+[3.829942] (m_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[3.830065] (m_pubsub) StdoutLine: {'line': b'creating /home/spark/robot_ws/install/m_pubsub/share/ament_index\n'}
+[3.830144] (m_pubsub) StdoutLine: {'line': b'creating /home/spark/robot_ws/install/m_pubsub/share/ament_index/resource_index\n'}
+[3.830219] (m_pubsub) StdoutLine: {'line': b'creating /home/spark/robot_ws/install/m_pubsub/share/ament_index/resource_index/packages\n'}
+[3.830293] (m_pubsub) StdoutLine: {'line': b'copying resource/m_pubsub -> /home/spark/robot_ws/install/m_pubsub/share/ament_index/resource_index/packages\n'}
+[3.830410] (m_pubsub) StdoutLine: {'line': b'copying package.xml -> /home/spark/robot_ws/install/m_pubsub/share/m_pubsub\n'}
+[3.927019] (-) TimerEvent: {}
+[3.943747] (m_pubsub) CommandEnded: {'returncode': 0}
+[3.949568] (my_first_ros_rclpy_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[3.952907] (my_first_ros_rclpy_pkg) StdoutLine: {'line': b'Creating /home/spark/robot_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages/site.py\n'}
+[3.953050] (my_first_ros_rclpy_pkg) StdoutLine: {'line': b'Creating /home/spark/robot_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages/my-first-ros-rclpy-pkg.egg-link (link to .)\n'}
+[3.961167] (my_first_ros_rclpy_pkg) StdoutLine: {'line': b'\n'}
+[3.961446] (my_first_ros_rclpy_pkg) StdoutLine: {'line': b'Installed /home/spark/robot_ws/build/my_first_ros_rclpy_pkg\n'}
+[3.961674] (my_first_ros_rclpy_pkg) StdoutLine: {'line': b'running install_data\n'}
+[3.961851] (my_first_ros_rclpy_pkg) StdoutLine: {'line': b'creating /home/spark/robot_ws/install/my_first_ros_rclpy_pkg/share/ament_index\n'}
+[3.962006] (my_first_ros_rclpy_pkg) StdoutLine: {'line': b'creating /home/spark/robot_ws/install/my_first_ros_rclpy_pkg/share/ament_index/resource_index\n'}
+[3.962167] (my_first_ros_rclpy_pkg) StdoutLine: {'line': b'creating /home/spark/robot_ws/install/my_first_ros_rclpy_pkg/share/ament_index/resource_index/packages\n'}
+[3.962337] (my_first_ros_rclpy_pkg) StdoutLine: {'line': b'copying resource/my_first_ros_rclpy_pkg -> /home/spark/robot_ws/install/my_first_ros_rclpy_pkg/share/ament_index/resource_index/packages\n'}
+[3.962486] (my_first_ros_rclpy_pkg) StdoutLine: {'line': b'copying package.xml -> /home/spark/robot_ws/install/my_first_ros_rclpy_pkg/share/my_first_ros_rclpy_pkg\n'}
+[4.031254] (-) TimerEvent: {}
+[4.069781] (m_pubsub) JobEnded: {'identifier': 'm_pubsub', 'rc': 0}
+[4.071340] (my_first_ros_rclpy_pkg) CommandEnded: {'returncode': 0}
+[4.099387] (my_first_ros_rclpy_pkg) JobEnded: {'identifier': 'my_first_ros_rclpy_pkg', 'rc': 0}
+[4.105213] (-) EventReactorShutdown: {}

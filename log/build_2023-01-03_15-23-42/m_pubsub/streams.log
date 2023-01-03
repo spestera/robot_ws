@@ -1,0 +1,21 @@
+[1.427s] Invoking command in '/home/spark/robot_ws/build/m_pubsub': PYTHONPATH=/home/spark/robot_ws/build/m_pubsub/prefix_override:/home/spark/robot_ws/install/m_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/spark/robot_ws/build/m_pubsub/build --no-deps install_data
+[1.858s] running develop
+[2.095s] running egg_info
+[2.095s] writing m_pubsub.egg-info/PKG-INFO
+[2.095s] writing dependency_links to m_pubsub.egg-info/dependency_links.txt
+[2.096s] writing entry points to m_pubsub.egg-info/entry_points.txt
+[2.096s] writing requirements to m_pubsub.egg-info/requires.txt
+[2.096s] writing top-level names to m_pubsub.egg-info/top_level.txt
+[2.148s] reading manifest file 'm_pubsub.egg-info/SOURCES.txt'
+[2.149s] writing manifest file 'm_pubsub.egg-info/SOURCES.txt'
+[2.205s] running build_ext
+[2.206s] Creating /home/spark/robot_ws/install/m_pubsub/lib/python3.8/site-packages/m-pubsub.egg-link (link to .)
+[2.211s] Installing met script to /home/spark/robot_ws/install/m_pubsub/lib/m_pubsub
+[2.211s] Installing metp script to /home/spark/robot_ws/install/m_pubsub/lib/m_pubsub
+[2.211s] Installing mp script to /home/spark/robot_ws/install/m_pubsub/lib/m_pubsub
+[2.212s] Installing ms script to /home/spark/robot_ws/install/m_pubsub/lib/m_pubsub
+[2.212s] Installing mt script to /home/spark/robot_ws/install/m_pubsub/lib/m_pubsub
+[2.212s] 
+[2.213s] Installed /home/spark/robot_ws/build/m_pubsub
+[2.213s] running install_data
+[2.244s] Invoked command in '/home/spark/robot_ws/build/m_pubsub' returned '0': PYTHONPATH=/home/spark/robot_ws/build/m_pubsub/prefix_override:/home/spark/robot_ws/install/m_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/spark/robot_ws/build/m_pubsub/build --no-deps install_data

@@ -1,0 +1,17 @@
+[1.415s] Invoking command in '/home/spark/robot_ws/build/move_turtle_pkg': PYTHONPATH=/home/spark/robot_ws/build/move_turtle_pkg/prefix_override:/home/spark/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/spark/robot_ws/build/move_turtle_pkg/build --no-deps install_data
+[1.782s] running develop
+[2.015s] running egg_info
+[2.015s] writing move_turtle_pkg.egg-info/PKG-INFO
+[2.016s] writing dependency_links to move_turtle_pkg.egg-info/dependency_links.txt
+[2.017s] writing entry points to move_turtle_pkg.egg-info/entry_points.txt
+[2.017s] writing requirements to move_turtle_pkg.egg-info/requires.txt
+[2.018s] writing top-level names to move_turtle_pkg.egg-info/top_level.txt
+[2.077s] reading manifest file 'move_turtle_pkg.egg-info/SOURCES.txt'
+[2.078s] writing manifest file 'move_turtle_pkg.egg-info/SOURCES.txt'
+[2.152s] running build_ext
+[2.155s] Creating /home/spark/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages/move-turtle-pkg.egg-link (link to .)
+[2.156s] Installing move_turtle script to /home/spark/robot_ws/install/move_turtle_pkg/lib/move_turtle_pkg
+[2.156s] 
+[2.156s] Installed /home/spark/robot_ws/build/move_turtle_pkg
+[2.156s] running install_data
+[2.179s] Invoked command in '/home/spark/robot_ws/build/move_turtle_pkg' returned '0': PYTHONPATH=/home/spark/robot_ws/build/move_turtle_pkg/prefix_override:/home/spark/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/spark/robot_ws/build/move_turtle_pkg/build --no-deps install_data
